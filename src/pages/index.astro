@@ -1,0 +1,19 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Nav from '../components/Nav.astro';
+import Stars from "../components/Stars.vue";
+// import DragNav from '../components/DragNav.vue';
+---
+
+<Layout title="James Boullion">
+	<main>
+		<!-- <DragNav client:load  /> -->
+		<Nav title="James Boullion" />
+		<Stars client:load />
+		
+	</main>
+</Layout>
+
+<style>
+	
+</style>
